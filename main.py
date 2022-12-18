@@ -1,11 +1,9 @@
 
-
-
 #from datetime import date
 import telebot
 #import gspread
 
-bot_token = '5881010706:AAEd4FLdnL5VCO3Xmd_uElxn_3_7LFlUqJY'
+bot_token = 'token'
 #googlesheet_id = 'some_spreadsheet_id'
 
 bot = telebot.TeleBot('5881010706:AAEd4FLdnL5VCO3Xmd_uElxn_3_7LFlUqJY')
