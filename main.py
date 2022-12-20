@@ -15,7 +15,7 @@ school, number, name = '', '', ''
 def get_text_messages(message):
     if message.text == "Привет" or message.text == "привет":
         bot.send_message(message.from_user.id,
-                         "Привет, выбери, что нужно сделать:\nотправить домашку /send\nполучить домашку /get\nхочешь фото с котиками?) /cats")
+                         "Привет, выбери, что нужно сделать:\nотправить домашку /send\n /get\nхочешь фото с котиками?) /cats")
     elif message.text == "/start":
         bot.send_message(message.from_user.id, "Напиши привет")
     else:
