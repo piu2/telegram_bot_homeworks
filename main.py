@@ -4,9 +4,9 @@ import os
 import random
 import requests
 
-bot_token = '5881010706:AAEd4FLdnL5VCO3Xmd_uElxn_3_7LFlUqJY'
+bot_token = 'TOKEN'
 
-bot = telebot.TeleBot('5881010706:AAEd4FLdnL5VCO3Xmd_uElxn_3_7LFlUqJY')
+bot = telebot.TeleBot('TOKEN')
 
 
 school, number, name = '', '', ''
